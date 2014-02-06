@@ -1,10 +1,15 @@
 GPUbin
 ======
+
 Low Level Tools for GPU programming
+
 ---
-#### AMD Low level kernel API 
+__AMD Low level kernel API__ 
+
 Following library provides tools for manipulate AMD opencl kernels at intermediate language level(.il), and generating binaries from them. 
-__.il__ is an intermediate language for amd gpus > 7series. Further, an attemp has been made, to optimize with a further lower level language __.isa__
+
+**il** is an intermediate language for amd gpus > 7series. Further, an attemp has been made, to optimize with a further lower level language **isa**
+
 ---
 Code Index:
 * build.sh      -- builds necessary tools 
